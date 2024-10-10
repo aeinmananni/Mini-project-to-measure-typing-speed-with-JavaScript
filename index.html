@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script> <title>Document</title>
+  </head>
+  <body>
+
+
+            <div class="parent-div">
+               <div class="introduction-details">
+                  <h1 class="introduction-text">تست سنجش سرعت تایپ</h1>
+               </div>
+               <div class="description">
+                  <span class="description-text">فرایند سنجش سرع تایپ بدین گونه است با شروع تایپ کاربرتایمرشروع به شمارش زمان میکند!!! و تایپ هر حرفمطابق متن کاربر با متن نمایش داده شده چک میشود</span>
+               </div>
+               <div class="pattern-div">
+                    <span class="pattern-lable">متن الگو</span>
+                    <input class="pattern-input"  type="text" placeholder="the text to test" dir="ltr"/>
+               </div>
+          <textarea class="textarea-field" name="" id="" placeholder="با تایپ اولین کله تایمر شروع به کارکردن میکند"></textarea>
+            <div class="timer-div">
+              <div class="timer">00:00:00</div>        
+              <button  class="timer-button ">reStart</button>
+
+            </div>
+            </div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
